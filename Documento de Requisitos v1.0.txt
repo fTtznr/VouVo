@@ -1,0 +1,50 @@
+
+Terceira Rota - Grupo 12
+
+RF 01 
+	O Sistema deve ser capaz de cadastrar usuários. Os usuários são divididos em Acompanhantes e Escoltados. As informações
+	necessárias sobre os Acompanhantes são o nome, idade, telefone de contato, modelo do veículo, placa, cor do veículo e se o veículo é ou não adaptado para
+	deficiências físicas. Os Escoltados devem fornecer seu nome, idade, nome de um responsável, contato de emergência do responsável e 
+	lista de enfermidades que será utilizada para garantir que o acompanhamento seja o mais seguro possível.
+
+RF 02
+
+	O Sistema deverá implementar um sistema de Reputação para os usuários. Ao final de cada escolta, um Escoltado poderá avaliar o serviço prestado
+	por um Acompanhante. Da mesma forma, um Acompanhante poderá avaliar um Escoltado. A avaliação será feita por um sistema de "bengalas", onde cada usuário
+	poderá avaliar dando de 1 até 5 "bengalas".
+
+RF 03
+	O sistema deverá implementar uma listas de favoritos de locais, estabelecimentos e Acompanhantes para cada Escoltado.
+
+RF 04
+	O sistema deverá implementar agendamento de Escoltas. O agendamento terá um local ou estabelecimento associado, data e hora, local de encontro e
+	poderá ou não reservar um Acompanhante.	
+
+RF 05
+	O Escoltado deverá conseguir pesquisar todos os locais e estabecimentos de um determinado tipo ordenados por sua distância em relação à ele.
+	
+RF 06
+
+	Ao iniciar uma escolta, uma mensagem de alerta deverá ser enviada ao responsável do Escoltado de que ele está em uma escolta. Similarmente, uma outra
+	mensagem deverá ser enviada ao responsável assim que a escolta for concluída com sucesso. Em caso de qualquer problema durante a escolta, tanto Escoltado quanto
+	Acompanhante poderão acionar um botão de emergência que enviará um alerta à uma ambulância e também ao responsável
+
+RF 07
+	Cada Acompanhante deverá ter acesso à relatórios de distribuição de escoltas durante o dia e locais da cidade. Ao selecionar uma região, será exibido um gráfico
+	do número de escoltas daquela região durante um período de tempo de um dia. Da mesma forma uma listagem da quantidade de escoltas durante um período de tempo também poderá
+	ser feita para várias regiões.
+
+RF 08
+
+	O sistema deverá incluir o gerenciamento de pagamentos por serviços prestados. Cada usuário deverá cadastrar um cartão de crédito - que deverá ser validado na inserção - que será utilizado
+	como forma de pagamento durante cada escolta. A cobrança por um serviço prestado será feita assim que a escolta for concluída com sucesso, assim como o pagamento do Acompanhante.
+
+RF 09	
+	O sistema deverá implementar um histórico de escoltas com as informações de destino, horário de encontro, horário de termino e Acompanhante. o Histórico será enviado semanalmente para cada responsável
+	de cada Escoltado.
+
+
+RNF 01
+	O Escoltado deverá conseguir alterar a fonte do texto e contraste do sistema.
+
+	
