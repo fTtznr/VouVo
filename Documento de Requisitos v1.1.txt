@@ -1,5 +1,5 @@
 
-Terceira Rota - Grupo 12
+Vou Vô - Grupo 12
 
 RF 01 
 	O Sistema deve ser capaz de cadastrar usuários. Os usuários são divididos em Acompanhantes e Escoltados. As informações
@@ -8,7 +8,6 @@ RF 01
 	lista de enfermidades que será utilizada para garantir que o acompanhamento seja o mais seguro possível.
 
 RF 02
-
 	O Sistema deverá implementar um sistema de Reputação para os usuários. Ao final de cada escolta, um Escoltado poderá avaliar o serviço prestado
 	por um Acompanhante. Da mesma forma, um Acompanhante poderá avaliar um Escoltado. A avaliação será feita por um sistema de "bengalas", onde cada usuário
 	poderá avaliar dando de 1 até 5 "bengalas".
@@ -24,7 +23,6 @@ RF 05
 	O Escoltado deverá conseguir pesquisar todos os locais e estabecimentos de um determinado tipo ordenados por sua distância em relação à ele.
 	
 RF 06
-
 	Ao iniciar uma escolta, uma mensagem de alerta deverá ser enviada ao responsável do Escoltado de que ele está em uma escolta. Similarmente, uma outra
 	mensagem deverá ser enviada ao responsável assim que a escolta for concluída com sucesso. Em caso de qualquer problema durante a escolta, tanto Escoltado quanto
 	Acompanhante poderão acionar um botão de emergência que enviará um alerta à uma ambulância e também ao responsável
@@ -35,7 +33,6 @@ RF 07
 	ser feita para várias regiões.
 
 RF 08
-
 	O sistema deverá incluir o gerenciamento de pagamentos por serviços prestados. Cada usuário deverá cadastrar um cartão de crédito - que deverá ser validado na inserção - que será utilizado
 	como forma de pagamento durante cada escolta. A cobrança por um serviço prestado será feita assim que a escolta for concluída com sucesso, assim como o pagamento do Acompanhante.
 
@@ -43,6 +40,13 @@ RF 09
 	O sistema deverá implementar um histórico de escoltas com as informações de destino, horário de encontro, horário de termino e Acompanhante. o Histórico será enviado semanalmente para cada responsável
 	de cada Escoltado.
 
+RF 10
+	O sistema deverá implementar um Relatório de Erros que poderá ser preenchido por usuários com informações de nome e email para contato - opcionais - data e hora de registro, uma breve descrição 
+	e especificação se o erro ocasionou em algum tipo de prejuízo
+
+RF 11
+	O sistema deverá implementar uma seção de Sugestões de Novas Funcionalidades que serão indicadas por usuários com informações de nome e email para contato - opcionais - data e hora de registro e uma breve descrição 
+	da funcionalidade desejada pelo usuário
 
 RNF 01
 	O Escoltado deverá conseguir alterar a fonte do texto e contraste do sistema.
